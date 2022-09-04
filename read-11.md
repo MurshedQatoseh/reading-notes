@@ -1,45 +1,96 @@
-# Readings: Mongo and Mongoose #
+# Mongo and Mongoose
+
+> When it comes to data, we need to store them inside a database , a place which contains data, depending on the type of data and the application we choose the type of database.
+
+---
+---
+
+**Fill in the chart below with five differences between SQL and NoSQL databases:**
+
+SQL:
+1. primarily called as relational database
+2. have predefined schema
+3.  table based database 
+4.  not best fit for hirearchical data storage
+5. vertically scalable whereas 
+NoSql:
+1. document based key value pairs
+2. horizontally scalable
+3. not good fit for complex queries 
+4. have dynamic schema for unstructured data
+5. can be categorized as graph databases, key-value store databases, document store databases, column store databases, and XML databases based on how the data is stored.
 
 
-## Reading
+**What kind of data is a good fit for an SQL database?**
 
-[nosql vs sql](https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool){:target="_blank"}
+Ideal for demanding transactional applications.
 
-1. Fill in the chart below with five differences between SQL and NoSQL databases:
+**Give a real world example.**
+Sales, purchases made by customers, and customer information.
 
-   | SQL    | NoSQL |
-   | ----------- | ----------- |
-   |             |             |
-   |             |             |
-   |             |             |
-   |             |             |
+**What kind of data is a good fit a NoSQL database?**
 
-   1. What kind of data is a good fit for an SQL database?
-   1. Give a real world example.
-   1. What kind of data is a good fit a NoSQL database?
-   1. Give a real world example.
-   1. Which type of database is best for hierarchical data storage?
-   1. Which type of database is best for scalability?
+Items that contain the key-pair value.
 
-## Videos
+**Give a real world example.**
 
-[sql vs nosql](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y){:target="_blank"} (Video)
+a location to keep the online shopping adverts.
 
-  1. What does SQL stand for?
-  1. What is a relational database?
-  1. What type of structure does a relational database work with?
-  1. What is a 'schema'?
-  1. What is a NoSQL database?
-  1. How does it work?
-  1. What is inside of a Mongo database?
-  1. Which is more flexible - SQL or MongoDB? and why.
-  1. What is the disadvantage of a NoSQL database?
+**Which type of database is best for hierarchical data storage?**
 
-## Bookmark and Review
+Better for hierarchical storage is SQL.
 
-- [mongoose api](https://mongoosejs.com/docs/api.html#Model){:target="_blank"}
-- [React Router](https://reactrouter.com/web/api/BrowserRouter){:target="_blank"}
+**Which type of database is best for scalability?**
 
-<!-- ## Additional Resources
+NoSQL because it doesn't need hardware upgrades.
 
-PLACEHOLDER -->
+**What does SQL stand for?**
+
+Structured Query Language.
+
+**What is a relational database?**
+
+a database designed to identify connections between informational objects.
+
+**What type of structure does a relational database work with?**
+
+Data is arranged into rows and columns, which together make up a table in a relational database.
+
+**What is a 'schema'?**
+
+Is the database management system capable of supporting the formal language used to define the structure of a database. The word "schema" refers to the way that data is organized as a construction plan for the database.
+
+**What is a NoSQL database?**
+
+A place (database) that stores data in a form of key-value pair.
+
+**How does it work?**
+
+Instead than using relational tables, store data in documents.
+
+**What is inside of a Mongo database?**
+
+Data records are kept in MongoDB as documents, specifically BSON documents, which are organized into collections.
+
+**Which is more flexible - SQL or MongoDB? and why.**
+
+MongoDB as it ensures high and diverse data availability
+
+**What is the disadvantage of a NoSQL database?**
+
+Don't have the reliability functions which Relational Databases have (basically don't support ACID).
+
+---
+---
+
+## Things I want to know more about
+
+- webpack
+- Mongoose
+- SQL
+
+ ---
+
+## References
+
+[1] LUKE P. ISSAC, Jan 14, 2014, _SQL vs NoSQL Database Differences Explained with few Example DB_, thegeekstuff.com, accessed 1 September 2022, <https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool>
